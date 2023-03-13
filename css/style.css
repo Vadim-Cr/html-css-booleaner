@@ -1,0 +1,51 @@
+
+/* regole header */
+header{
+    background-image: url(/img/pattern.png);
+    background-color: rgb(67, 143, 215);
+    background-size: contain;
+    padding: 25px;
+}
+#logo{
+    height: 25%;
+    width: 25%;
+}
+
+/* regole titolo e immagini dopo header */
+#scritto{
+    color: rgb(135, 133, 133);
+}
+#booleaner{
+    color: rgb(16, 161, 161);
+}
+#data{
+    font-size: 10px;
+}
+#tim-1{
+    float: left;
+    width:  48%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+#tim-2{
+    float: left;
+    width:  48%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+#img-descr{
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+}
+/* regole main */
+
+.highlight{
+    background-color: gold;
+}
+#list-item{
+    display: inline-block;
+    text-align: left;
+}
