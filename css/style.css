@@ -51,6 +51,7 @@ header{
 }
 /* regole tabella */
 
+
 #blue-h{
     background-color: rgb(24, 134, 167);
     color: white;
@@ -58,4 +59,45 @@ header{
 }
 th{
     padding: 10px 0;
+}
+.column{
+    width: 25%;
+}
+
+tr{
+    font-weight: bold;
+}
+
+.color-row{
+    background-color: aqua;
+    color: black;
+}
+
+/* footer */
+
+h3{
+    color: rgb(142, 141, 141);
+    font-size: 12px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 312px;
+  }
+
+  .container-2 {
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 312px;
+    
+  }
+  .top-center {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-weight: bold;
+    font-size: larger;
 }
