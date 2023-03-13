@@ -1,0 +1,110 @@
+
+
+
+
+/* regole header */
+header{
+    background-image: url(/img/pattern.png);
+    background-color: rgb(67, 143, 215);
+    background-size: contain;
+    padding: 25px;
+}
+#logo{
+    height: 25%;
+    width: 25%;
+}
+
+/* regole titolo e immagini dopo header */
+#scritto{
+    color: rgb(135, 133, 133);
+}
+#booleaner{
+    color: rgb(16, 161, 161);
+}
+#data{
+    font-size: 10px;
+}
+#tim-1{
+    float: left;
+    width:  48%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+#tim-2{
+    float: left;
+    width:  48%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+#img-descr{
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+}
+/* regole main */
+
+#container-main{
+    padding-left:75px;
+    padding-right: 75px;
+}
+.highlight{
+    background-color: gold;
+}
+#list-item{
+    display: inline-block;
+    text-align: left;
+}
+/* regole tabella */
+
+
+#blue-h{
+    background-color: rgb(24, 134, 167);
+    color: white;
+    border-spacing: 500px 0;
+}
+th{
+    padding: 10px 0;
+}
+.column{
+    width: 25%;
+}
+
+tr{
+    font-weight: bold;
+}
+
+.color-row{
+    background-color: aqua;
+    color: black;
+}
+
+/* footer */
+
+h3{
+    color: rgb(142, 141, 141);
+    font-size: 12px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 312px;
+  }
+
+  .container-2 {
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 312px;
+    
+  }
+  .top-center {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-weight: bold;
+    font-size: larger;
+}
